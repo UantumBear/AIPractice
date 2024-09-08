@@ -15,7 +15,7 @@ else:
     device = torch.device("cpu")
     print("GPU를 사용할 수 없습니다. CPU를 사용합니다.")
 
-model_dir = "../../model/pretrained/skt/ko-gpt-trinity-1.2B-v0.5"
+model_dir = "../../store/pretrained/skt/ko-gpt-trinity-1.2B-v0.5"
 model = GPT2LMHeadModel.from_pretrained(model_dir)
 tokenizer = GPT2TokenizerFast.from_pretrained(model_dir) # tokenizer 정의 없이 기본 값으로 다운로드.
 

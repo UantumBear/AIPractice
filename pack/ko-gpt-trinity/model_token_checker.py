@@ -2,7 +2,7 @@ from transformers import GPT2LMHeadModel, GPT2TokenizerFast
 import os
 import torch
 
-model_dir = "../../model/pretrained/skt/ko-gpt-trinity-1.2B-v0.5"
+model_dir = "../../store/pretrained/skt/ko-gpt-trinity-1.2B-v0.5"
 
 # Fx 3. local 의 model 과 tokenizer load 하여 토큰 설정 확인
 model = GPT2LMHeadModel.from_pretrained(model_dir)
