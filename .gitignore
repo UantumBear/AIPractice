@@ -11,4 +11,3 @@ store/pretrained/*
 
 # 안돌아가는 파일 삭제
 model/xgen
-model/t5
